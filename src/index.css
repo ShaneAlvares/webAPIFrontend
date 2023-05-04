@@ -1,0 +1,89 @@
+    #root{
+        height: 100vh;
+    }
+
+    .flightItem{
+        padding: 10px;
+        border: black solid;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    .HeaderName{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .searchBtn{
+        letter-spacing: 2px;
+        border-radius: 1px;
+        border: white 2px solid;
+        box-shadow: 15px 13px;
+    }
+
+    .selectToCart{
+        letter-spacing: 1px;
+        border-radius: 1px;
+        border: white 2px solid;
+        box-shadow: 15px 13px;
+    }
+
+    .titleDetails{
+        font-size: small;
+    }
+
+    .filters{
+        float: right;
+        border: grey solid 2px;
+        border-radius: 5px;
+        padding: 1px;
+    }
+    .divPadingZero{
+        padding: 0;
+    }
+
+    .checkoutBtn{
+        float: right;
+        border-radius: 2px;
+        width: 254px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    .btnAddToCart{
+        float: right;
+        width: 225px;
+        letter-spacing: 2px;
+        border-radius: 1px;
+        border: white 2px solid;
+        box-shadow: 15px 13px;
+
+    }
+
+    .cartItemIcon{
+        float: right;
+        font-weight: 700;
+        letter-spacing: 1px;
+        border: black solid 3px;
+        padding: 3px;
+    }
+
+    .activeSelected{
+        background-color: greenyellow !important;
+        color: black !important;
+    }
+
+    .button-set {
+        display: grid;
+        grid-template-columns: repeat(3, 60px);
+        grid-template-rows: repeat(2, 60px);
+        grid-gap: 5px;
+      }
+      
+      .button-set button {
+        width: 60px;
+        height: 60px;
+        background-color: whitesmoke;
+        border: black solid 2px;
+        outline: none;
+      }
